@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body_block%}
+
+
+<!-- ================================
+    START BREADCRUMB AREA
+================================= -->
+<section class="breadcrumb-area gradient-bg-gray before-none">
+    <div class="breadcrumb-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
+                        <div class="section-heading text-left">
+                            <h2 class="sec__title">Fullstack Developer</h2>
+                            <p class="sec__desc font-weight-regular pb-2">Milan, Italy</p>
+                        </div>
+                        <div class="btn-box bread-btns">
+                            <a href="#" class="theme-btn theme-btn-gray mr-2"><i class="la la-bookmark mr-1"></i>Save</a>
+                            <a href="#" class="theme-btn theme-btn-gray" data-toggle="modal" data-target="#sharePopupForm"><i class="la la-external-link mr-1"></i>Share</a>
+                        </div>
+                    </div><!-- end breadcrumb-content -->
+                </div><!-- end col-lg-12 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end breadcrumb-wrap -->
+    <div class="bread-svg-box">
+        <svg class="bread-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><polygon points="100 0 50 10 0 0 0 10 100 10"></polygon></svg>
+    </div><!-- end bread-svg -->
+</section><!-- end breadcrumb-area -->
+<!-- ================================
+    END BREADCRUMB AREA
+================================= -->
+
+<!-- ================================
+    START JOB-DETAILS AREA
+================================= -->
+<section class="job-details-area section--padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="form-box">
+                    <div class="form-title-wrap">
+                        <h3 class="title"><i class="la la-user mr-2 text-gray"></i>About Trizen</h3>
+                    </div><!-- form-title-wrap -->
+                    <div class="form-content contact-form-action">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eos modi molestiae natus quo veniam? Adipisci asperiores id sed veniam voluptate. Asperiores culpa facere iste minus, mollitia reprehenderit soluta ullam!</p>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis, ullam. Consequuntur eius iste, necessitatibus officia quaerat saepe totam velit.</p>
+                        <p class="pb-4">Nobis quis, ullam. Consequuntur eius iste, necessitatibus officia quaerat saepe totam velit.</p>
+                        <h3 class="title pb-2">About Trizen Milan, Italy</h3>
+                        <p>Animi eos modi molestiae natus quo veniam? Adipisci asperiores id sed veniam voluptate. Asperiores culpa facere iste minus, mollitia reprehenderit soluta ullam!</p>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quis, ullam. Consequuntur eius iste, necessitatibus officia quaerat saepe totam velit.</p>
+                    </div><!-- end form-content -->
+                </div><!-- end form-box -->
+                 <div class="form-box">
+                    <div class="form-title-wrap">
+                        <h3 class="title"><i class="la la-briefcase mr-2 text-gray"></i>Job Responsibilities</h3>
+                    </div><!-- form-title-wrap -->
+                    <div class="form-content contact-form-action">
+                        <ul class="list-items list-items-bullet">
+                            <li>Closely partnering the public policy team in policy work, including policy review and negotiations, partnership formation and strategic investments</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                        </ul>
+                    </div><!-- end form-content -->
+                </div><!-- end form-box -->
+                <div class="form-box">
+                    <div class="form-title-wrap">
+                        <h3 class="title"><i class="la la-thumbs-up mr-2 text-gray"></i>Requirements</h3>
+                    </div><!-- form-title-wrap -->
+                    <div class="form-content contact-form-action">
+                        <ul class="list-items list-items-bullet">
+                            <li>Closely partnering the public policy team in policy work, including policy review and negotiations, partnership formation and strategic investments</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                            <li>Provide visibility and transparency into the portfolio of engineering initiatives.</li>
+                        </ul>
+                    </div><!-- end form-content -->
+                </div><!-- end form-box -->
+                <div class="form-box">
+                    <div class="form-title-wrap">
+                        <h3 class="title"><i class="la la-gift mr-2 text-gray"></i>What do we offer?</h3>
+                    </div><!-- form-title-wrap -->
+                    <div class="form-content contact-form-action">
+                        <ul class="list-items list-items-bullet">
+                            <li>Private Medical Insurance</li>
+                            <li>Saving funds</li>
+                            <li>10 days of paid holidays</li>
+                            <li>Full Law Benefits</li>
+                            <li>Profit sharing (5% of company profits)</li>
+                        </ul>
+                    </div><!-- end form-content -->
+                </div><!-- end form-box -->
+                <div class="form-box">
+                    <div class="form-title-wrap">
+                        <h3 class="title d-flex align-items-center justify-content-between">
+                            <span><i class="la la-briefcase mr-2 text-gray"></i>Apply for this Job</span>
+                            <span class="font-size-13 text-gray"><span class="text-danger">*</span> Required</span>
+                        </h3>
+                    </div><!-- form-title-wrap -->
+                    <div class="form-content contact-form-action">
+                        <form method="post" class="row MultiFile-intercepted">
+                            <div class="col-lg-6 responsive-column">
+                                <div class="input-box">
+                                    <label class="label-text">First Name</label>
+                                    <div class="form-group">
+                                        <span class="la la-user form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="First name">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-6 -->
+                             <div class="col-lg-6 responsive-column">
+                                <div class="input-box">
+                                    <label class="label-text">Last Name</label>
+                                    <div class="form-group">
+                                        <span class="la la-user form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="Last name">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-6 -->
+                            <div class="col-lg-6 responsive-column">
+                                <div class="input-box">
+                                    <label class="label-text">Your Email</label>
+                                    <div class="form-group">
+                                        <span class="la la-envelope-o form-icon"></span>
+                                        <input class="form-control" type="email" name="email" placeholder="Your email">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-6 -->
+                             <div class="col-lg-6 responsive-column">
+                                <div class="input-box">
+                                    <label class="label-text">Phone Number</label>
+                                    <div class="form-group">
+                                        <span class="la la-phone form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="Phone number">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-6 -->
+                            <div class="col-lg-12">
+                                <div class="input-box">
+                                    <label class="label-text">Address</label>
+                                    <div class="form-group">
+                                        <span class="la la-map-marker form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="Address">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                            <div class="col-lg-12">
+                                <div class="input-box">
+                                    <label class="label-text mb-0">Resume/CV</label>
+                                    <p class="font-size-13 line-height-18 pb-3">Allowed formats files are: pdf, doc, docx, txt, rtf</p>
+                                    <div class="file-upload-wrap file-upload-wrap-2 resumre-wrap">
+                                        <input type="file" name="files[]" class="multi file-upload-input"  accept="pdf|doc|docx|txt|rtf">
+                                        <span class="file-upload-text"><i class="la la-upload mr-2"></i>Attach File</span>
+                                    </div>
+                                    <a href="#" class="paste-btn d-inline-block font-size-17 pb-3">Paste</a>
+                                    <textarea id="resume_text" class="form-control message-control"></textarea>
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                            <div class="col-lg-12">
+                                <div class="input-box">
+                                    <label class="label-text">LinkedIn Profile</label>
+                                    <div class="form-group">
+                                        <span class="la la-linkedin form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="LinkedIn profile">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                             <div class="col-lg-12">
+                                <div class="input-box">
+                                    <label class="label-text">Website or Portfolio link (if you are applying for a creative job role)</label>
+                                    <div class="form-group">
+                                        <span class="la la-link form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="Portfolio link">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                            <div class="col-lg-12">
+                                <div class="input-box">
+                                    <label class="label-text">Other URLs</label>
+                                    <div class="form-group">
+                                        <span class="la la-globe form-icon"></span>
+                                        <input class="form-control" type="text" name="text" placeholder="URLs">
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                            <div class="col-lg-6 responsive-column">
+                                <div class="input-box">
+                                    <label class="label-text">How did you hear about this job?</label>
+                                    <div class="form-group select-contain w-100">
+                                        <div class="dropdown bootstrap-select select-contain-select">
+                                            <select class="select-contain-select">
+                                                <option value="">Please Select</option>
+                                                <option value="1">Trizen's job page</option>
+                                                <option value="2">Trizen's Linkedin</option>
+                                                <option value="3">Trizen's Facebook</option>
+                                                <option value="4">Trizen's Twitter</option>
+                                                <option value="5">Glassdoor job ad</option>
+                                                <option value="6">Linkdin job add</option>
+                                                <option value="7">SEEK job ad</option>
+                                                <option value="8">Referred: Other</option>
+                                                <option value="9">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end col-lg-6 -->
+                            <div class="col-lg-12 responsive-column">
+                                <div class="input-box">
+                                    <label class="label-text">Tell us, in 150 words or less, why you'd love to join the Trizen crew.</label>
+                                   <div class="form-group">
+                                       <textarea class="form-control message-control"></textarea>
+                                   </div>
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                        </form>
+                    </div><!-- end form-content -->
+                </div><!-- end form-box -->
+                <div class="submit-box">
+                    <h3 class="title pb-3">Submit this CV</h3>
+                    <div class="custom-checkbox">
+                        <input type="checkbox" id="agreeChb">
+                        <label for="agreeChb" class="line-height-24">We care about your privacy. By submitting your application you are agreeing to our Privacy Policy. If you’re into reading legal documents or you’re keen to know more about how we handle your personal information read our
+                            <a href="#">Privacy Policy</a> before you submit your application. </label>
+                    </div>
+                    <div class="btn-box pt-3">
+                        <button type="submit" class="theme-btn">Submit Application <i class="la la-arrow-right ml-1"></i></button>
+                    </div>
+                </div>
+            </div><!-- end col-lg-8 -->
+            <div class="col-lg-4">
+                <div class="sidebar mb-0">
+                    <div class="sidebar-widget">
+                        <h3 class="title stroke-shape">Job Summary</h3>
+                        <ul class="list-items list-items-flush">
+                            <li><span class="text-black mr-2"><i class="la la-calendar mr-2 text-color font-size-18"></i>Published on:</span> 20 Oct 2020</li>
+                            <li><span class="text-black mr-2"><i class="la la-glass mr-2 text-color font-size-18"></i>Vacancy:</span> 02</li>
+                            <li><span class="text-black mr-2"><i class="la la-laptop mr-2 text-color font-size-18"></i>Employment Status:</span>Full-time</li>
+                            <li><span class="text-black mr-2"><i class="la la-lightbulb mr-2 text-color font-size-18"></i>Experience:</span>At least 2 year(s)</li>
+                            <li><span class="text-black mr-2"><i class="la la-users mr-2 text-color font-size-18"></i>Gender:</span>Both</li>
+                            <li><span class="text-black mr-2"><i class="la la-user mr-2 text-color font-size-18"></i>Age:</span>Age 24 to 32 years</li>
+                            <li><span class="text-black mr-2"><i class="la la-map-marker mr-2 text-color font-size-18"></i>Job Location:</span>Milan, Italy</li>
+                            <li><span class="text-black mr-2"><i class="la la-money mr-2 text-color font-size-18"></i>Salary:</span>Tk. 35000 - 45000 (Monthly)</li>
+                            <li><span class="text-black mr-2"><i class="la la-hourglass-1 mr-2 text-color font-size-18"></i>Application Deadline:</span>26 Nov 2020</li>
+                        </ul>
+                    </div><!-- end sidebar-widget -->
+                </div><!-- end sidebar -->
+            </div><!-- end col-lg-4 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end job-details-area -->
+<!-- ================================
+    END JOB-DETAILS AREA
+================================= -->
+
+{% endblock %}
